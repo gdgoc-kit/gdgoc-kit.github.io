@@ -18,7 +18,7 @@ const fs = require('fs');
 const path = require('path');
 
 // EDIT: 実際の公開URLに合わせる
-const SITE_URL = 'https://kit-gdgoc.github.io';
+const SITE_URL = 'https://gdgoc-kit.github.io/';
 
 const ROOT = path.join(__dirname, '..');
 const REPORTS_PATH = path.join(ROOT, 'assets', 'data', 'reports.json');
