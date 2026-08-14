@@ -19,6 +19,10 @@ header.page-head p {
 }
 
 /* ---------- 年クイックナビ ---------- */
+.year-nav[hidden] {
+    display: none;
+}
+
 .year-nav {
     position: sticky;
     top: 16px;
