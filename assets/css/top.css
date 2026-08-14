@@ -127,6 +127,16 @@ header.hero p.lead {
 }
 
 /* ---------- FAQ ---------- */
+.faq-group-label {
+    font-family: var(--font-jp);
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--ink-soft);
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    margin: 20px 0 4px 4px;
+}
+
 .faq-list {
     display: flex;
     flex-direction: column;
