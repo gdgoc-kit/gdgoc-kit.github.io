@@ -7,6 +7,30 @@
     <language>ja</language>
     <atom:link href="https://kit-gdgoc.github.io/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>DevFest2027</title>
+      <link>https://kit-gdgoc.github.io/event/index.html</link>
+      <guid isPermaLink="true">https://kit-gdgoc.github.io/event/index.html</guid>
+      <pubDate>Wed, 06 Oct 2027 04:00:00 GMT</pubDate>
+      <category>イベント予告</category>
+      <description>地域課題ハッカソンイベントを金沢市内で開催予定です。</description>
+    </item>
+    <item>
+      <title>DevFest2026</title>
+      <link>https://kit-gdgoc.github.io/event/index.html</link>
+      <guid isPermaLink="true">https://kit-gdgoc.github.io/event/index.html</guid>
+      <pubDate>Sun, 06 Dec 2026 04:00:00 GMT</pubDate>
+      <category>イベント予告</category>
+      <description>Google関連のDevFest2026を金沢工業大学で開催予定です。</description>
+    </item>
+    <item>
+      <title>Go言語ワークショップ</title>
+      <link>https://kit-gdgoc.github.io/event/index.html</link>
+      <guid isPermaLink="true">https://kit-gdgoc.github.io/event/index.html</guid>
+      <pubDate>Fri, 25 Sep 2026 04:00:00 GMT</pubDate>
+      <category>イベント予告</category>
+      <description>Go言語に関するイベントを実施します。</description>
+    </item>
+    <item>
       <title>GDGoC 関西合同新歓 2026</title>
       <link>https://kit-gdgoc.github.io/report/20260509.html</link>
       <guid isPermaLink="true">https://kit-gdgoc.github.io/report/20260509.html</guid>
