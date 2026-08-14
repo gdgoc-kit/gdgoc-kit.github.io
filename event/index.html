@@ -13,7 +13,35 @@
   使い方:
   1. 新しいイベントを追加したら、このHTMLは編集しない。
      代わりに assets/data/events.json に1件分のエントリを追加する。
-     （title / start / end / venue / excerpt / href / reportHref）
+
+  【フィールド一覧】
+  title      : イベント名（必須）
+  start      : 開始日時。ISO 8601形式 "yyyy-MM-ddTHH:mm:ss+09:00"（必須）
+               日時が未定の場合は null を設定し、dateTentative / dateLabel を使う。
+               日時が月単位など粗い場合は仮の日付（例: 月初日）を入れ、
+               dateTentative: true と dateLabel で補足する（後述）。
+  end        : 終了日時。ISO 8601形式。省略可（省略時は start で終了判定）
+  venue      : 開催場所（省略可）
+  excerpt    : イベント概要（省略可）
+  href       : connpass 等の外部リンク（省略可）
+  reportHref : イベントレポートへの相対パス（終了後に追加）
+  dateTentative : true を設定すると日時が「仮」扱いになり、date表示に
+                  dateLabel の文字列を使うようになる（省略時は false 扱い）
+  dateLabel  : dateTentative が true のときに表示する日時テキスト
+               例: "2026年12月上旬予定"（dateTentative と合わせて使う）
+
+  【日時が粗い場合の例】
+  {
+      "title": "年末LT大会",
+      "start": "2026-12-01T00:00:00+09:00",   ← ソート用の仮日付（月初日）
+      "end": null,
+      "dateTentative": true,
+      "dateLabel": "2026年12月上旬予定",
+      "venue": "未定",
+      "excerpt": "...",
+      "href": "..."
+  }
+
   2. 終了しているかどうかは end（無ければstart）と現在時刻を
      JS側で比較し、「予定しているイベント」「終了したイベント」に
      自動で振り分けて描画する（HTML/CSS側は変更不要）

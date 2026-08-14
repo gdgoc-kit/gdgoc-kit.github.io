@@ -1,9 +1,39 @@
 [
     {
+        "title": "DevFest2027",
+        "start": "2027-10-06T13:00+09:00",
+        "end": null,
+        "dateTentative": true,
+        "dateLabel": "2027年10月予定",
+        "venue": "金沢工業大学",
+        "excerpt": "地域課題ハッカソンイベントを金沢市内で開催予定です。",
+        "href": ""
+    },
+    {
+        "title": "DevFest2026",
+        "start": "2026-12-06T13:00+09:00",
+        "end": null,
+        "dateTentative": true,
+        "dateLabel": "2026年12月予定",
+        "venue": "金沢工業大学",
+        "excerpt": "Google関連のDevFest2026を金沢工業大学で開催予定です。",
+        "href": ""
+    },
+    {
+        "title": "Go言語ワークショップ",
+        "start": "2026-09-25T13:00+09:00",
+        "end": null,
+        "dateTentative": true,
+        "dateLabel": "2026年9月予定",
+        "venue": "金沢工業大学",
+        "excerpt": "Go言語に関するイベントを実施します。",
+        "href": ""
+    },
+    {
         "title": "【GoogleのAI開発最前線】研究開発のリアルとこれからの技術",
         "start": "2026-07-23T17:30+09:00",
         "end": "2026-07-23T19:30:00+09:00",
-        "venue":"金沢工業大学 6号館 多目的ホール",
+        "venue": "金沢工業大学 6号館 多目的ホール",
         "excerpt": "GoogleDeepMindに所属されている方をお招きし、AIに関する講話をしていただきます。",
         "href": "https://gdsckit.connpass.com/event/398886/"
     },

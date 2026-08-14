@@ -41,7 +41,9 @@
 
         var dateSpan = document.createElement('span');
         dateSpan.className = 'date';
-        dateSpan.textContent = formatDateTime(event.start);
+        dateSpan.textContent = (event.dateTentative && event.dateLabel)
+            ? event.dateLabel
+            : formatDateTime(event.start);
         a.appendChild(dateSpan);
 
         // 終了したイベントで、まだレポートが無い場合は「レポート作成中」バッジを表示する
