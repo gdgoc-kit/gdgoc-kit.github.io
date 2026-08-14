@@ -2,47 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2000/Atom">
   <channel>
     <title>GDGoC KIT</title>
-    <link>https://gdgoc-kit.github.io/</link>
+    <link>https://gdgoc-kit.github.io//</link>
     <description>GDGoC KIT のイベントレポート・イベント情報</description>
     <language>ja</language>
-    <atom:link href="https://gdgoc-kit.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gdgoc-kit.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DevFest2027</title>
-      <link>https://gdgoc-kit.github.io/event/index.html</link>
-      <guid isPermaLink="true">https://gdgoc-kit.github.io/event/index.html</guid>
-      <pubDate>Wed, 06 Oct 2027 04:00:00 GMT</pubDate>
+      <link>https://gdgoc-kit.github.io//event/index.html</link>
+      <guid isPermaLink="true">https://gdgoc-kit.github.io//event/index.html</guid>
+      <pubDate>Wed, 06 Oct 2027 13:00:00 +0900</pubDate>
       <category>イベント予告</category>
       <description>地域課題ハッカソンイベントを金沢市内で開催予定です。</description>
     </item>
     <item>
       <title>DevFest2026</title>
-      <link>https://gdgoc-kit.github.io/event/index.html</link>
-      <guid isPermaLink="true">https://gdgoc-kit.github.io/event/index.html</guid>
-      <pubDate>Sun, 06 Dec 2026 04:00:00 GMT</pubDate>
+      <link>https://gdgoc-kit.github.io//event/index.html</link>
+      <guid isPermaLink="true">https://gdgoc-kit.github.io//event/index.html</guid>
+      <pubDate>Sun, 06 Dec 2026 13:00:00 +0900</pubDate>
       <category>イベント予告</category>
       <description>Google関連のDevFest2026を金沢工業大学で開催予定です。</description>
     </item>
     <item>
       <title>Go言語ワークショップ</title>
-      <link>https://gdgoc-kit.github.io/event/index.html</link>
-      <guid isPermaLink="true">https://gdgoc-kit.github.io/event/index.html</guid>
-      <pubDate>Fri, 25 Sep 2026 04:00:00 GMT</pubDate>
+      <link>https://gdgoc-kit.github.io//event/index.html</link>
+      <guid isPermaLink="true">https://gdgoc-kit.github.io//event/index.html</guid>
+      <pubDate>Fri, 25 Sep 2026 13:00:00 +0900</pubDate>
       <category>イベント予告</category>
       <description>Go言語に関するイベントを実施します。</description>
     </item>
     <item>
       <title>GDGoC 関西合同新歓 2026</title>
-      <link>https://gdgoc-kit.github.io/report/20260509.html</link>
-      <guid isPermaLink="true">https://gdgoc-kit.github.io/report/20260509.html</guid>
-      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+      <link>https://gdgoc-kit.github.io//report/20260509.html</link>
+      <guid isPermaLink="true">https://gdgoc-kit.github.io//report/20260509.html</guid>
+      <pubDate>Sat, 09 May 2026 09:00:00 +0900</pubDate>
       <category>レポート</category>
       <description>関西エリアの複数チャプターとの共催イベントに、北陸唯一のチャプターとしてサテライト会場から参加しました。</description>
     </item>
     <item>
       <title>KIT Welcome Event 2026 ～エンジニアのはじめかた × Cloud体験〜</title>
-      <link>https://gdgoc-kit.github.io/report/20260421.html</link>
-      <guid isPermaLink="true">https://gdgoc-kit.github.io/report/20260421.html</guid>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+      <link>https://gdgoc-kit.github.io//report/20260421.html</link>
+      <guid isPermaLink="true">https://gdgoc-kit.github.io//report/20260421.html</guid>
+      <pubDate>Tue, 21 Apr 2026 09:00:00 +0900</pubDate>
       <category>レポート</category>
       <description>新入生・新メンバー向けに、エンジニアとしての第一歩とCloudの基礎を体験してもらうイベントを開催しました。</description>
     </item>
