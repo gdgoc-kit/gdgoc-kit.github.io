@@ -113,7 +113,9 @@
 
                 var dateSpan = document.createElement('span');
                 dateSpan.className = 'date';
-                dateSpan.textContent = formatDateTime(event.start);
+                dateSpan.textContent = (event.dateTentative && event.dateLabel)
+                    ? event.dateLabel
+                    : formatDateTime(event.start);
 
                 var h2 = document.createElement('h2');
                 h2.textContent = event.title;
