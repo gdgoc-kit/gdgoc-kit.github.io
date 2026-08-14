@@ -25,6 +25,18 @@ const REPORTS_PATH = path.join(ROOT, 'assets', 'data', 'reports.json');
 const EVENTS_PATH = path.join(ROOT, 'assets', 'data', 'events.json');
 const OUTPUT_PATH = path.join(ROOT, 'feed.xml');
 
+function toJSTRFC822(date) {
+  const JST_OFFSET_MS = 9 * 60 * 60 * 1000;
+  const jst = new Date(date.getTime() + JST_OFFSET_MS);
+  const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  const d   = String(jst.getUTCDate()).padStart(2, '0');
+  const hh  = String(jst.getUTCHours()).padStart(2, '0');
+  const mm  = String(jst.getUTCMinutes()).padStart(2, '0');
+  const ss  = String(jst.getUTCSeconds()).padStart(2, '0');
+  return `${days[jst.getUTCDay()]}, ${d} ${months[jst.getUTCMonth()]} ${jst.getUTCFullYear()} ${hh}:${mm}:${ss} +0900`;
+}
+
 function escapeXml(str) {
   return String(str)
     .replace(/&/g, '&amp;')
@@ -81,7 +93,7 @@ items.sort((a, b) => b.date - a.date);
 
 const rssItems = items
   .map((item) => {
-    const safeDate = isNaN(item.date.getTime()) ? new Date().toUTCString() : item.date.toUTCString();
+    const safeDate = toJSTRFC822(isNaN(item.date.getTime()) ? new Date() : item.date);
     return `    <item>
       <title>${escapeXml(item.title)}</title>
       <link>${escapeXml(item.link)}</link>
