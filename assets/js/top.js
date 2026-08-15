@@ -107,9 +107,11 @@
                 card.className = 'event-card';
 
                 var a = document.createElement('a');
-                a.href = event.href || '#';
-                a.target = '_blank';
-                a.rel = 'noopener';
+                if (event.href) {
+                    a.href = event.href;
+                    a.target = '_blank';
+                    a.rel = 'noopener';
+                }
 
                 var dateSpan = document.createElement('span');
                 dateSpan.className = 'date';
@@ -138,7 +140,7 @@
 
                 var readMore = document.createElement('span');
                 readMore.className = 'read-more';
-                readMore.textContent = '詳細を見る →';
+                readMore.textContent = event.href ? '詳細を見る →' : 'イベントページ準備中';
                 a.appendChild(readMore);
 
                 card.appendChild(a);
