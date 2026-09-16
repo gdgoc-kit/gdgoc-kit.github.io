@@ -7,12 +7,12 @@
     <language>ja</language>
     <atom:link href="https://gdgoc-kit.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>DevFest2027</title>
+      <title>CivicAI Summit 2027</title>
       <link>https://gdgoc-kit.github.io//event/index.html</link>
       <guid isPermaLink="true">https://gdgoc-kit.github.io//event/index.html</guid>
-      <pubDate>Wed, 06 Oct 2027 13:00:00 +0900</pubDate>
+      <pubDate>Sat, 18 Sep 2027 13:00:00 +0900</pubDate>
       <category>イベント予告</category>
-      <description>地域課題ハッカソンイベントを金沢市内で開催予定です。</description>
+      <description>地域課題ハッカソンイベントを石川県地場産業振興センターで開催予定です。</description>
     </item>
     <item>
       <title>DevFest2026</title>
@@ -23,10 +23,10 @@
       <description>Google関連のDevFest2026を金沢工業大学で開催予定です。</description>
     </item>
     <item>
-      <title>Go言語ワークショップ</title>
+      <title>Go言語ワークショップ#1</title>
       <link>https://gdgoc-kit.github.io//event/index.html</link>
       <guid isPermaLink="true">https://gdgoc-kit.github.io//event/index.html</guid>
-      <pubDate>Fri, 25 Sep 2026 13:00:00 +0900</pubDate>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0900</pubDate>
       <category>イベント予告</category>
       <description>Go言語に関するイベントを実施します。</description>
     </item>
