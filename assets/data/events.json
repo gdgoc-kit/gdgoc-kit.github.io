@@ -7,7 +7,8 @@
         "dateLabel": "2027年9月18日~19日予定",
         "venue": "石川県地場産業振興センター",
         "excerpt": "地域課題ハッカソンイベントを石川県地場産業振興センターで開催予定です。",
-        "href": ""
+        "href": "",
+        "seekingSponsor": true
     },
     {
         "title": "DevFest2026",
@@ -17,7 +18,8 @@
         "dateLabel": "2026年12月予定",
         "venue": "金沢工業大学",
         "excerpt": "Google関連のDevFest2026を金沢工業大学で開催予定です。",
-        "href": ""
+        "href": "",
+        "seekingSponsor": true
     },
     {
         "title": "Go言語ワークショップ#1",

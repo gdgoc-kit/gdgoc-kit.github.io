@@ -41,6 +41,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/base.css">
     <link rel="stylesheet" href="../assets/css/about.css">
+    <link rel="stylesheet" href="../assets/css/event-list.css">
 </head>
 
 <body>
@@ -73,6 +74,16 @@
             <!-- EDIT: 募集の背景・目的・活動概要などを記載する -->
             <p>
                 GDGoC KITは、金沢工業大学の学生で構成される北陸唯一のGDGoCチャプターとして、ハンズオンやLT会、他大学との合同イベントなどを開催しています。こうした活動をより多くの学生に届けるため、活動を支援いただけるスポンサー企業・団体様を募集しています。
+            </p>
+        </section>
+
+        <!-- ================= スポンサー募集中のイベント ================= -->
+        <!-- assets/data/events.json の seekingSponsor: true なイベントをJSで一覧表示する -->
+        <section id="sponsor-events">
+            <h2>スポンサー募集中のイベント</h2>
+            <ul class="event-list" id="sponsor-event-list"></ul>
+            <p id="sponsor-event-empty" class="event-list-empty" hidden>
+                現在、スポンサーを募集しているイベントはありません。
             </p>
         </section>
 
@@ -110,6 +121,8 @@
         </section>
 
     </div>
+
+    <script src="../assets/js/sponsor-events.js"></script>
 </body>
 
 </html>
