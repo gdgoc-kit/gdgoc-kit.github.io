@@ -32,6 +32,14 @@
         "href": ""
     },
     {
+        "title": "初心者向けGo言語勉強会",
+        "start": "2026-10-11T13:00:00+09:00",
+        "end": "2026-10-11T15:00:00+09:00",
+        "venue": "金沢工業大学 7号館 7-1",
+        "excerpt": "Go言語の基本をクイズ形式と実習を通じて学ぶ、初心者向けのプログラミング勉強会です。",
+        "href": "https://gdg.community.dev/events/details/google-gdg-on-campus-kanazawa-institute-of-technology-ishikawa-japan-presents-chu-xin-zhe-xiang-kegoyan-yu-mian-qiang-hui/"
+    },
+    {
         "title": "【GoogleのAI開発最前線】研究開発のリアルとこれからの技術",
         "start": "2026-07-23T17:30+09:00",
         "end": "2026-07-23T19:30:00+09:00",
