@@ -22,12 +22,28 @@
         "seekingSponsor": true
     },
     {
-        "title": "ゼロから始めるGo言語 #01",
+        "title": "【Gopherスレイヤー】「Go」を書いてゲームを攻略！with Biwako.go",
+        "start": "2026-11-21T13:15:00+09:00",
+        "end": "2026-11-21T16:45:00+09:00",
+        "venue": "野々市市中央公民館 3階研修室",
+        "excerpt": "Go言語で構築されたゲームのバックエンドAPIを書き換えながら、Goのハンズオン体験とゲーム攻略を目指すハンズオンイベントです。Biwako.goとの共催。",
+        "href": "https://gdsckit.connpass.com/event/411143/"
+    },
+    {
+        "title": "ゼロから始めるGo言語 #01 ～Go言語の基本を知ろう～",
         "start": "2026-11-02T18:15:00+09:00",
         "end": "2026-11-02T20:10:00+09:00",
         "venue": "金沢工業大学 23号館コミュニケーションスタジオ",
-        "excerpt": "Go言語を題材に、クイズ形式の学習とCloudハンズオンを通じて、環境構築なしでプログラミングの楽しさを体験できる初心者向けイベントです。",
+        "excerpt": "プログラミング初心者向けに、環境構築不要のクラウドハンズオンを通じてGo言語の基礎を学べるイベントです。クイズ形式での学習と実践的なコーディング体験が含まれます。",
         "href": "https://gdsckit.connpass.com/event/405699/"
+    },
+    {
+        "title": "初心者向けGo言語勉強会",
+        "start": "2026-10-11T13:00:00+09:00",
+        "end": "2026-10-11T15:00:00+09:00",
+        "venue": "金沢工業大学 7号館",
+        "excerpt": "Go言語の基本をクイズ形式と実習を通じて学ぶ、初心者向けのプログラミング勉強会です。",
+        "href": "https://gdg.community.dev/events/details/google-gdg-on-campus-kanazawa-institute-of-technology-ishikawa-japan-presents-chu-xin-zhe-xiang-kegoyan-yu-mian-qiang-hui/"
     },
     {
         "title": "【GoogleのAI開発最前線】研究開発のリアルとこれからの技術",
